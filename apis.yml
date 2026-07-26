@@ -1,8 +1,25 @@
 aid: door-to-door-organic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/door-to-door-organic.png
 name: Door-to-Door Organic
-description: Door-to-Door Organic is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Door to Door Organics was an organic and natural grocery home-delivery service founded in
+  1997 and headquartered in Louisville, Colorado. It delivered fresh local and organic produce boxes
+  along with pantry staples, dairy, eggs, meat, and bread to homes and offices across roughly 17 states
+  in the West, Midwest, and East Coast (including Washington, D.C.). Backed by Battery Ventures among
+  others, the company raised about $44.4M over six rounds before abruptly ceasing operations in 2017.
+  It was surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a
+  lead. Enrichment found no public developer surface (no portal, documentation, OpenAPI, or API host);
+  the company is defunct and publishes no API.
 url: https://raw.githubusercontent.com/api-evangelist/door-to-door-organic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Grocery Delivery
+- Organic Food
+- E-Commerce
+- Food and Beverage
+- Consumer
+- Defunct
+x-status: defunct
+x-status-note: Ceased operations in 2017; no public developer surface or API.
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
